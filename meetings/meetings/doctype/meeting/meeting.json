@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Meeting-.#",
+ "creation": "2023-02-09 21:32:15.337884",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "column_break_2",
+  "status",
+  "column_break_5",
+  "date",
+  "section_break_8ypiq",
+  "from_time",
+  "column_break_x5dck",
+  "to_time",
+  "venue_section",
+  "venue",
+  "attendees_secition",
+  "attendees",
+  "agenda_section",
+  "agenda",
+  "minutes_section",
+  "minutes",
+  "section_break_x4rob",
+  "test_button",
+  "pict_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue",
+   "fieldtype": "Data",
+   "label": "Venue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "attendees",
+   "fieldtype": "Table",
+   "label": "Attendees",
+   "options": "Meeting Attendee"
+  },
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Table",
+   "label": "Meeting Agendas",
+   "options": "Meeting Agenda",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Planned\nInvited\nin Progress\nCompleted\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "attendees_secition",
+   "fieldtype": "Section Break",
+   "label": "Attendees"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "agenda_section",
+   "fieldtype": "Section Break",
+   "label": "Agenda"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "minutes",
+   "fieldtype": "Table",
+   "label": "Minutes",
+   "options": "Meeting Minutes"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "minutes_section",
+   "fieldtype": "Section Break",
+   "label": "Minute"
+  },
+  {
+   "fieldname": "venue_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8ypiq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_x5dck",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test_button",
+   "fieldtype": "Button",
+   "label": "test button"
+  },
+  {
+   "fieldname": "pict_image",
+   "fieldtype": "Image",
+   "label": " image"
+  },
+  {
+   "fieldname": "section_break_x4rob",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-18 22:48:58.518173",
+ "modified_by": "Administrator",
+ "module": "Meetings",
+ "name": "Meeting",
+ "name_case": "Title Case",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Meetings Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title"
+}

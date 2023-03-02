@@ -1,0 +1,62 @@
+{
+ "charts": [
+  {
+   "chart_name": "Meetings Status",
+   "label": "Meetings Status"
+  }
+ ],
+ "content": "[{\"id\":\"4E4_gmyNZ_\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4HIQY9N8Bt\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Meetings Status\",\"col\":12}},{\"id\":\"I8RjvHk_Qq\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"li\",\"col\":4}},{\"id\":\"ymTWAkjYFY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"cccc\",\"col\":3}},{\"id\":\"4afAhYjE_t\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Meetings</span>\",\"col\":12}},{\"id\":\"pxzn0Q8ZGi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"List Meetings\",\"col\":3}},{\"id\":\"o2VF1VuFgl\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"Y3gmEaLwPB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Add Meeting\",\"col\":3}}]",
+ "creation": "2023-03-02 12:28:41.765186",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Meetings",
+ "links": [],
+ "modified": "2023-03-02 15:07:00.935359",
+ "modified_by": "Administrator",
+ "module": "Meetings",
+ "name": "Meetings",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Meeting",
+   "label": "li"
+  }
+ ],
+ "roles": [
+  {
+   "role": "Meetings Manager"
+  }
+ ],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "List Meetings",
+   "link_to": "Meeting",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Add Meeting",
+   "link_to": "Meeting",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "Calendar",
+   "label": "cccc",
+   "link_to": "Meeting",
+   "type": "DocType"
+  }
+ ],
+ "title": "Meetings"
+}
